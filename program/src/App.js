@@ -1,5 +1,5 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
+
 import Home from './components/Home.js';
 import About from './components/About.js';
 import Users from './components/Users.js';

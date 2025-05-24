@@ -1,11 +1,10 @@
-import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import users from './UserList'
 
 
 const UserDetail = () => {
   const { userId } = useParams();
-  const user = users.find(u => u.id === parseInt(userId));
+  const user = users.find(p => p.id === parseInt(userId));
 
   if (!user) {
     return <div>User not found</div>;

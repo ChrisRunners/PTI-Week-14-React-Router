@@ -1,17 +1,15 @@
-import React from 'react';
-
 const Home = () => {
   return (
     <div>
       <h2>Home Page</h2>
       <hr></hr>
-      <p>Welcome to the React Router demonstration project!</p>
-      <p>This project showcases various features of React Router including:</p>
+      <p>Selamat datang di website ini!</p>
+      <p>Website ini memberikan contoh mengenai variasi penggunaan React Router:</p>
       <ul>
-        <li>NavLinks with active styling</li>
+        <li>NavLinks dengan active styling</li>
         <li>Dynamic routing</li>
         <li>Route parameters</li>
-        <li>Nested routes (conceptually)</li>
+        <li>Nested routes</li>
         <li>404 Not Found page</li>
       </ul>
     </div>
