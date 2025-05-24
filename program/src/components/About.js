@@ -4,6 +4,7 @@ const About = () => {
   return (
     <div>
       <h2>About This Demo</h2>
+      <hr></hr>
       <p>This application demonstrates key features of React Router:</p>
       
       <h3>NavLink</h3>

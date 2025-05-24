@@ -1,11 +1,6 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-
-const products = [
-  { id: 101, name: 'Laptop', price: 999.99, category: 'Electronics', description: 'High-performance laptop with 16GB RAM and 1TB SSD' },
-  { id: 102, name: 'Smartphone', price: 699.99, category: 'Electronics', description: 'Latest smartphone with 5G capability and triple camera' },
-  { id: 201, name: 'Desk Chair', price: 199.99, category: 'Furniture', description: 'Ergonomic office chair with adjustable height and lumbar support' },
-];
+import products from './ProductList'
 
 const ProductDetail = () => {
   const { productId } = useParams();
@@ -20,11 +15,13 @@ const ProductDetail = () => {
       <h2>Product Details</h2>
       <h3>{product.name}</h3>
       <p><strong>ID:</strong> {product.id}</p>
-      <p><strong>Price:</strong> ${product.price.toFixed(2)}</p>
+      <p><strong>Price:</strong> {product.price}</p>
       <p><strong>Category:</strong> {product.category}</p>
       <p><strong>Description:</strong> {product.description}</p>
-      <p>Notice how the URL contains the product ID as a parameter: <code>/products/{productId}</code></p>
-      <Link to="/products">Back to Products List</Link>
+      <p className='notice'>Perhatikan URL yang mencakup ID dari Product sebagai parameter: <code>/products/{productId}</code></p>
+      <Link className='link' to="/products">
+      <button>Back to Products List</button>
+      </Link>
     </div>
   );
 };

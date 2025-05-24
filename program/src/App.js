@@ -15,6 +15,7 @@ function App() {
       <div className="app">
         <nav className="navbar">
           <h1>React Router Demo</h1>
+          <hr></hr>
           <ul className="nav-links">
             <li>
               <NavLink to="/" end className={({ isActive }) => isActive ? 'active' : ''}>
@@ -28,12 +29,12 @@ function App() {
             </li>
             <li>
               <NavLink to="/users" className={({ isActive }) => isActive ? 'active' : ''}>
-                Users
+                Anomali
               </NavLink>
             </li>
             <li>
               <NavLink to="/products" className={({ isActive }) => isActive ? 'active' : ''}>
-                Products
+                Senjata Anomali
               </NavLink>
             </li>
           </ul>

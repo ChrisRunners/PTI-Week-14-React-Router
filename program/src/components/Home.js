@@ -4,6 +4,7 @@ const Home = () => {
   return (
     <div>
       <h2>Home Page</h2>
+      <hr></hr>
       <p>Welcome to the React Router demonstration project!</p>
       <p>This project showcases various features of React Router including:</p>
       <ul>
