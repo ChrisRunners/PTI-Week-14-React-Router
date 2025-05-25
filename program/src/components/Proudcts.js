@@ -6,7 +6,7 @@ const Products = () => {
     <div>
       <h2>Daftar Senjata Anomali</h2>
       <p>
-        Berikut adalah senjata anomali yang telah ditemukan... (dynamic route with parameter)
+        Berikut adalah senjata anomali yang telah ditemukan... (Dynamic Route with Route Params)
       </p>
 
       {products.map((product) => (

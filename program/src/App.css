@@ -122,7 +122,11 @@ button:hover {
 }
 
 .link {
-  color: #d344f7;
+  color: #e78bfe;
+}
+
+.link:visited{
+  color: #e78bfe;
 }
 
 .link:hover {

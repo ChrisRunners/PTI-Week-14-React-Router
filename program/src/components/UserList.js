@@ -13,7 +13,7 @@ const users = [
     email: 'mbahghost@anomali.com',
     phone: '0877-1122-3344',
     address: 'Puncak Gunung Ghoib, Indonesia',
-    image: 'https://sdmntprwestus.oaiusercontent.com/files/00000000-e964-6230-87fc-afc729ab83af/raw?se=2025-05-24T09%3A40%3A12Z&sp=r&sv=2024-08-04&sr=b&scid=52374d98-bb7a-5dc1-8ada-55f35797483e&skoid=ec8eb293-a61a-47e0-abd0-6051cc94b050&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-24T01%3A39%3A56Z&ske=2025-05-25T01%3A39%3A56Z&sks=b&skv=2024-08-04&sig=1baqHhWQtDtwtgd2ik4AzHJALHqFlXMzVIk9I35YbWs%3D',
+    image: 'https://cdna.artstation.com/p/assets/images/images/000/538/666/large/farmypoko-3d-griderok.jpg?1426059552',
   },
   {
     id: 3,
